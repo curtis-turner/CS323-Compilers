@@ -1,5 +1,5 @@
 # 323 Assignment 3 Programming
-# Billy Giang
+# Billy Giang, Curtis Turner
 # Feb 14 2017
 
 # Sample output: for ( int tom_jones = 22 ; cout<< 2tom ;
