@@ -4,7 +4,7 @@ def cleanUp(data):
     for i in range(len(data)):
         #print(data[i])
         if data[i] == '/' and data[i+1] == '/':
-            print('we got to this if state')
+            #print('we got to this if state')
             break
         else:
             out.write(str(data[i]))
@@ -26,10 +26,20 @@ def main():
             break
         
     print(fileData)
+    
     if '\n' in fileData:
         fileData.remove('\n')
         
     print(fileData)
+    print('\n')
+    
+    newList = []
+    for i in fileData:
+        words = i.split(' ')
+        newList.append(words)
+        
+    for i in newList:
+        print(i)
     
     for i in fileData:
         cleanUp(i)
