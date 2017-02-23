@@ -1,6 +1,3 @@
-#CS323 Assignment 4 Problem 1
-#Authors: Curtis Turner, Billy Giang+
-
 #CS323 Assignmen 4 Problem 1
 #Authors: Curtis Turner, Billy Giang, David Horning
 
